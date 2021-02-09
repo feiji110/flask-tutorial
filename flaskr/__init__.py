@@ -48,9 +48,17 @@ def create_app(test_config=None):
     from . import db
     db.init_app(app)
 
-    # from . import auth
-    # app.register_blueprint(auth.bp)
+    from . import auth
+    app.register_blueprint(auth.bp)
     return app
+# if __name__ == '__main__':
+#     import os
+#     HOST = os.environ.get('SERVER_HOST', 'localhost')
+#     try:
+#         PORT = int(os.environ.get('SERVER_PORT', '5555'))
+#     except ValueError:
+#         PORT = 5555
+#     create_app().run()
 
 
 
