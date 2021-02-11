@@ -73,7 +73,7 @@ def logout():
     return redirect(url_for('index'))
 
 # Require Authentication in Other Views
-def login_requierd(view):
+def login_required(view):
     @functools.wraps(view)
     def wrapped_view(**kwargs):
         if g.user is None:
