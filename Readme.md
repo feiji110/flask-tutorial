@@ -4,7 +4,8 @@
   
 ###Reference & Comparison: 
 + [example project](https://github.com/pallets/flask/tree/1.1.2/examples/tutorial)
-
++ [example2](https://github.com/CoreyMSchafer/code_snippets/tree/master/Python/Flask_Blog
+)
 
 ###What can be improved
 + A detail view to show a single post.Click a post's title to go to its page.
