@@ -1,3 +1,7 @@
+Flaskr have two blueprints,one for authentication functions and 
+one for the blog posts functions. The code for 
+each blueprint will go in a separate module. 
+
 ## Deploy to Production
 assumes you have a sever that you want to deploy your application to.
 ### Build a distribution(发行) file.
